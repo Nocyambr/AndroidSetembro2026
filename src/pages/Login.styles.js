@@ -19,6 +19,18 @@ export const styles = StyleSheet.create({
     color: "#ffffff",
     marginBottom: 30,
   },
+  botaoEntrar: {
+    backgroundColor: "#00a6d6",
+    padding: 15,
+    borderRadius: 8,
+    width: "80%",
+    alignItems: "center",
+    marginBottom: 12,
+  },
+  textoEntrar: {
+    color: "#ffffff",
+    fontWeight: "bold",
+  },
   botaoVoltar: {
     backgroundColor: "#1e293b",
     padding: 15,
