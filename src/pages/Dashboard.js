@@ -168,7 +168,7 @@ function Aulas() {
       <Text style={styles.pageTitle}>Próximas aulas</Text>
       <Text style={styles.pageSubtitle}>Organize seus equipamentos para cada treino.</Text>
 
-      {aulas.map((aula, index) => (
+      {aulas.map((aula) => (
         <View key={aula.dia} style={styles.lessonCard}>
           <View style={styles.dateBox}>
             <Text style={styles.dateText}>{aula.dia}</Text>
@@ -294,7 +294,7 @@ export function Dashboard() {
   }
 
   return (
-    <SafeAreaView style={styles.container} edges={["top", "left", "right"]}>
+    <SafeAreaView style={styles.container} edges={["top", "left", "right", "bottom"]}>
       <StatusBar barStyle="dark-content" backgroundColor="#F4FAFD" />
       <View style={styles.content}>{renderContent()}</View>
 
